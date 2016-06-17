@@ -1,0 +1,15 @@
+PODS:
+  - Cosmos (1.2.2)
+  - HanekeSwift (0.10.1)
+
+DEPENDENCIES:
+  - Cosmos (~> 1.2)
+  - HanekeSwift
+
+SPEC CHECKSUMS:
+  Cosmos: 87c49100c69d2cb2eebfa4eb8d1e801fe29ff774
+  HanekeSwift: 08e47d3d0f2899ec58e5d257beba0de619aca9e8
+
+PODFILE CHECKSUM: 38f2f5b9863bba3fe35dbcf703bbb68c4d7afd32
+
+COCOAPODS: 1.0.0
