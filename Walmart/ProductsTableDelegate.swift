@@ -77,6 +77,8 @@ extension ProductsViewController: UITableViewDelegate, UITableViewDataSource {
     // Override to support conditional editing of the table view.
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         // Return NO if you do not want the specified item to be editable.
+        tableView.deselectRowAtIndexPath(indexPath, animated: true)
+
         
     }
 }

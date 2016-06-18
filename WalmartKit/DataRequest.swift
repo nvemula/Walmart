@@ -11,7 +11,7 @@ import Foundation
 class DataRequest {
     
     // Configure API key
-    private final let API_KEY = ""
+    private final let API_KEY = "180c4925-dce0-4801-b931-0b18491149fa"
     
     func getProducts(page: Int) -> Future<[Product]>{
         
