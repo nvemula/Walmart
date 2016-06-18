@@ -58,16 +58,6 @@ extension ProductsViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath) {
-        if(indexPath.row < productItems.count){
-            if(self.productsShown[indexPath.row] == false){
-                let rotationTransform = CATransform3DTranslate(CATransform3DIdentity, 0, 100, -20)
-                cell.layer.transform = rotationTransform
-                UIView.animateWithDuration(0.5, animations: { () -> Void in
-                    cell.layer.transform = CATransform3DIdentity
-                })
-                self.productsShown[indexPath.row]  = true
-            }
-        }
         if(indexPath.row == productItems.count - 1){
             self.pageNumber = self.pageNumber + 1
             self.getProducts()
